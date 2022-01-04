@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.worldtech4ever.github.io/worldtech4ever/ [NC]
-RewriteRule ^(.*)$ http://worldtech4ever.github.io/worldtech4ever//$1 [L,R=301]
